@@ -1,0 +1,4 @@
+D:\Codes\Hiren2pDevelopments\DesignPatterns\SingletonPattern\bin\Debug\SingletonPattern.exe
+D:\Codes\Hiren2pDevelopments\DesignPatterns\SingletonPattern\bin\Debug\SingletonPattern.pdb
+D:\Codes\Hiren2pDevelopments\DesignPatterns\SingletonPattern\obj\x86\Debug\SingletonPattern.exe
+D:\Codes\Hiren2pDevelopments\DesignPatterns\SingletonPattern\obj\x86\Debug\SingletonPattern.pdb

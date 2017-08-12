@@ -1,0 +1,4 @@
+D:\Codes\Hiren2pDevelopments\WCFLibrary\bin\WCFLibrary.dll
+D:\Codes\Hiren2pDevelopments\WCFLibrary\bin\WCFLibrary.pdb
+D:\Codes\Hiren2pDevelopments\WCFLibrary\obj\Debug\WCFLibrary.dll
+D:\Codes\Hiren2pDevelopments\WCFLibrary\obj\Debug\WCFLibrary.pdb

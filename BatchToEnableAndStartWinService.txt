@@ -1,0 +1,15 @@
+sc config W3SVC start= auto
+
+net start W3SVC
+if %errorlevel% == 2 echo Could not start W3SVC service.
+if %errorlevel% == 0 echo W3SVC service started successfully.
+echo Errorlevel: %errorlevel%
+
+sc config IISADMIN start= auto
+
+net start IISADMIN
+if %errorlevel% == 2 echo Could not start IISADMIN service.
+if %errorlevel% == 0 echo IISADMIN service started successfully.
+echo Errorlevel: %errorlevel%
+
+echo

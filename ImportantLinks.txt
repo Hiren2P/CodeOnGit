@@ -1,0 +1,3 @@
+http://www.microsoft.com/en-in/download/details.aspx?id=1491 :: ASP.net MVC4 download
+
+https://www.simple-talk.com/cloud/platform-as-a-service/managing-session-state-in-windows-azure-what-are-the-options/ :: Windows Azure Session management

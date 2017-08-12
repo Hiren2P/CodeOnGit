@@ -1,0 +1,28 @@
+<query xmlns:yahoo="http://www.yahooapis.com/v1/base.rng">
+  <results>
+    <rate id="USDJPY">
+      <Name>USD to JPY</Name>
+      <Rate>102.245</Rate>
+      <Date>3/21/2014</Date>
+      <Time>1:53pm</Time>
+      <Ask>102.27</Ask>
+      <Bid>102.22</Bid>
+    </rate>
+    <rate id="USDGBP">
+      <Name>USD to GBP</Name>
+      <Rate>0.6063</Rate>
+      <Date>3/21/2014</Date>
+      <Time>1:53pm</Time>
+      <Ask>0.6064</Ask>
+      <Bid>0.6063</Bid>
+    </rate>
+    <rate id="USDINR">
+      <Name>USD to INR</Name>
+      <Rate>60.905</Rate>
+      <Date>3/21/2014</Date>
+      <Time>1:53pm</Time>
+      <Ask>60.92</Ask>
+      <Bid>60.89</Bid>
+    </rate>
+  </results>
+</query>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:65216/Contracts/Service.svc?xsd=xsd1" namespace="www.tempuri.org" />
+      <xsd:import schemaLocation="http://localhost:65216/Contracts/Service.svc?xsd=xsd2" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:65216/Contracts/Service.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/WCFLibrary" />
+      <xsd:import schemaLocation="http://localhost:65216/Contracts/Service.svc?xsd=xsd0" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:65216/Contracts/Service.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/WCFLibrary.Contracts" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="RequestMessage">
+    <wsdl:part xmlns:q1="www.tempuri.org" name="value1" element="q1:value1" />
+    <wsdl:part xmlns:q2="www.tempuri.org" name="value2" element="q2:value2" />
+  </wsdl:message>
+  <wsdl:message name="RequestMessage_Headers">
+    <wsdl:part name="SoapHeader" element="tns:SoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="ReponseMessage">
+    <wsdl:part name="resultValue" element="tns:resultValue" />
+  </wsdl:message>
+  <wsdl:message name="ReponseMessage_Headers">
+    <wsdl:part name="SoapHeader" element="tns:SoapHeader" />
+  </wsdl:message>
+  <wsdl:message name="IContracts_Add_FaultModelFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/WCFLibrary" name="detail" element="q3:FaultModel" />
+  </wsdl:message>
+  <wsdl:message name="IContracts_Sub_FaultModelFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/WCFLibrary" name="detail" element="q4:FaultModel" />
+  </wsdl:message>
+  <wsdl:message name="IContracts_Mul_FaultModelFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/WCFLibrary" name="detail" element="q5:FaultModel" />
+  </wsdl:message>
+  <wsdl:message name="IContracts_DivWithSoapReqRes_FaultModelFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/WCFLibrary" name="detail" element="q6:FaultModel" />
+  </wsdl:message>
+  <wsdl:message name="IContracts_DivWithDataConReqRes_InputMessage">
+    <wsdl:part name="parameters" element="tns:DivWithDataConReqRes" />
+  </wsdl:message>
+  <wsdl:message name="IContracts_DivWithDataConReqRes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DivWithDataConReqResResponse" />
+  </wsdl:message>
+  <wsdl:message name="IContracts_DivWithDataConReqRes_FaultModelFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/WCFLibrary" name="detail" element="q7:FaultModel" />
+  </wsdl:message>
+  <wsdl:portType name="IContracts">
+    <wsdl:operation name="Add">
+      <wsdl:input wsaw:Action="http://tempuri.org/IContracts/Add" name="RequestMessage" message="tns:RequestMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IContracts/AddResponse" name="ReponseMessage" message="tns:ReponseMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IContracts/AddFaultModelFault" name="FaultModelFault" message="tns:IContracts_Add_FaultModelFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Sub">
+      <wsdl:input wsaw:Action="http://tempuri.org/IContracts/Sub" name="RequestMessage" message="tns:RequestMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IContracts/SubResponse" name="ReponseMessage" message="tns:ReponseMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IContracts/SubFaultModelFault" name="FaultModelFault" message="tns:IContracts_Sub_FaultModelFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Mul">
+      <wsdl:input wsaw:Action="http://tempuri.org/IContracts/Mul" name="RequestMessage" message="tns:RequestMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IContracts/MulResponse" name="ReponseMessage" message="tns:ReponseMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IContracts/MulFaultModelFault" name="FaultModelFault" message="tns:IContracts_Mul_FaultModelFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DivWithSoapReqRes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IContracts/DivWithSoapReqRes" name="RequestMessage" message="tns:RequestMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IContracts/DivWithSoapReqResResponse" name="ReponseMessage" message="tns:ReponseMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IContracts/DivWithSoapReqResFaultModelFault" name="FaultModelFault" message="tns:IContracts_DivWithSoapReqRes_FaultModelFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DivWithDataConReqRes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IContracts/DivWithDataConReqRes" message="tns:IContracts_DivWithDataConReqRes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IContracts/DivWithDataConReqResResponse" message="tns:IContracts_DivWithDataConReqRes_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IContracts/DivWithDataConReqResFaultModelFault" name="FaultModelFault" message="tns:IContracts_DivWithDataConReqRes_FaultModelFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IContracts" type="tns:IContracts">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Add">
+      <soap:operation soapAction="http://tempuri.org/IContracts/Add" style="document" />
+      <wsdl:input name="RequestMessage">
+        <soap:header message="tns:RequestMessage_Headers" part="SoapHeader" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ReponseMessage">
+        <soap:header message="tns:ReponseMessage_Headers" part="SoapHeader" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="FaultModelFault">
+        <soap:fault use="literal" name="FaultModelFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Sub">
+      <soap:operation soapAction="http://tempuri.org/IContracts/Sub" style="document" />
+      <wsdl:input name="RequestMessage">
+        <soap:header message="tns:RequestMessage_Headers" part="SoapHeader" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ReponseMessage">
+        <soap:header message="tns:ReponseMessage_Headers" part="SoapHeader" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="FaultModelFault">
+        <soap:fault use="literal" name="FaultModelFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Mul">
+      <soap:operation soapAction="http://tempuri.org/IContracts/Mul" style="document" />
+      <wsdl:input name="RequestMessage">
+        <soap:header message="tns:RequestMessage_Headers" part="SoapHeader" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ReponseMessage">
+        <soap:header message="tns:ReponseMessage_Headers" part="SoapHeader" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="FaultModelFault">
+        <soap:fault use="literal" name="FaultModelFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="DivWithSoapReqRes">
+      <soap:operation soapAction="http://tempuri.org/IContracts/DivWithSoapReqRes" style="document" />
+      <wsdl:input name="RequestMessage">
+        <soap:header message="tns:RequestMessage_Headers" part="SoapHeader" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ReponseMessage">
+        <soap:header message="tns:ReponseMessage_Headers" part="SoapHeader" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="FaultModelFault">
+        <soap:fault use="literal" name="FaultModelFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="DivWithDataConReqRes">
+      <soap:operation soapAction="http://tempuri.org/IContracts/DivWithDataConReqRes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="FaultModelFault">
+        <soap:fault use="literal" name="FaultModelFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="BasicHttpBinding_IContracts" binding="tns:BasicHttpBinding_IContracts">
+      <soap:address location="http://localhost:65216/Contracts/Service.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
