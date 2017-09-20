@@ -1,8 +1,0 @@
-E:\Hiren\Source Code\Hiren's\Dynamics CRM\CRMPlugin\bin\Debug\CRMPlugin.dll
-E:\Hiren\Source Code\Hiren's\Dynamics CRM\CRMPlugin\bin\Debug\CRMPlugin.pdb
-E:\Hiren\Source Code\Hiren's\Dynamics CRM\CRMPlugin\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
-E:\Hiren\Source Code\Hiren's\Dynamics CRM\CRMPlugin\bin\Debug\Microsoft.IdentityModel.dll
-E:\Hiren\Source Code\Hiren's\Dynamics CRM\CRMPlugin\bin\Debug\Microsoft.Xrm.Sdk.dll
-E:\Hiren\Source Code\Hiren's\Dynamics CRM\CRMPlugin\obj\Debug\CRMPlugin.csprojResolveAssemblyReference.cache
-E:\Hiren\Source Code\Hiren's\Dynamics CRM\CRMPlugin\obj\Debug\CRMPlugin.dll
-E:\Hiren\Source Code\Hiren's\Dynamics CRM\CRMPlugin\obj\Debug\CRMPlugin.pdb
