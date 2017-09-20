@@ -2,3 +2,9 @@ D:\Codes\Hiren2pDevelopments\WCFLibrary\bin\WCFLibrary.dll
 D:\Codes\Hiren2pDevelopments\WCFLibrary\bin\WCFLibrary.pdb
 D:\Codes\Hiren2pDevelopments\WCFLibrary\obj\Debug\WCFLibrary.dll
 D:\Codes\Hiren2pDevelopments\WCFLibrary\obj\Debug\WCFLibrary.pdb
+E:\Hiren\Source Code\Hiren's\WCFLibrary\bin\WCFLibrary.dll.config
+E:\Hiren\Source Code\Hiren's\WCFLibrary\bin\WCFLibrary.dll
+E:\Hiren\Source Code\Hiren's\WCFLibrary\bin\WCFLibrary.pdb
+E:\Hiren\Source Code\Hiren's\WCFLibrary\obj\Debug\WCFLibrary.csprojResolveAssemblyReference.cache
+E:\Hiren\Source Code\Hiren's\WCFLibrary\obj\Debug\WCFLibrary.dll
+E:\Hiren\Source Code\Hiren's\WCFLibrary\obj\Debug\WCFLibrary.pdb

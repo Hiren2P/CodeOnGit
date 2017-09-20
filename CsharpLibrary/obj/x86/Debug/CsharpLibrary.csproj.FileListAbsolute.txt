@@ -12,3 +12,17 @@ D:\Codes\Hiren2pDevelopments\CsharpLibrary\bin\Debug\office.xml
 D:\Codes\Hiren2pDevelopments\CsharpLibrary\obj\x86\Debug\CsharpLibrary.csprojResolveAssemblyReference.cache
 D:\Codes\Hiren2pDevelopments\CsharpLibrary\obj\x86\Debug\CsharpLibrary.exe
 D:\Codes\Hiren2pDevelopments\CsharpLibrary\obj\x86\Debug\CsharpLibrary.pdb
+E:\Hiren\Source Code\Hiren's\CsharpLibrary\bin\Debug\CsharpLibrary.exe.config
+E:\Hiren\Source Code\Hiren's\CsharpLibrary\obj\x86\Debug\CsharpLibrary.exe
+E:\Hiren\Source Code\Hiren's\CsharpLibrary\obj\x86\Debug\CsharpLibrary.pdb
+E:\Hiren\Source Code\Hiren's\CsharpLibrary\bin\Debug\CsharpLibrary.exe
+E:\Hiren\Source Code\Hiren's\CsharpLibrary\bin\Debug\CsharpLibrary.pdb
+E:\Hiren\Source Code\Hiren's\CsharpLibrary\bin\Debug\FTP_CLASS.dll
+E:\Hiren\Source Code\Hiren's\CsharpLibrary\bin\Debug\WCFLibrary.dll
+E:\Hiren\Source Code\Hiren's\CsharpLibrary\bin\Debug\office.dll
+E:\Hiren\Source Code\Hiren's\CsharpLibrary\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Hiren\Source Code\Hiren's\CsharpLibrary\bin\Debug\stdole.dll
+E:\Hiren\Source Code\Hiren's\CsharpLibrary\bin\Debug\WCFLibrary.pdb
+E:\Hiren\Source Code\Hiren's\CsharpLibrary\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\Hiren\Source Code\Hiren's\CsharpLibrary\bin\Debug\office.xml
+E:\Hiren\Source Code\Hiren's\CsharpLibrary\obj\x86\Debug\CsharpLibrary.csprojResolveAssemblyReference.cache

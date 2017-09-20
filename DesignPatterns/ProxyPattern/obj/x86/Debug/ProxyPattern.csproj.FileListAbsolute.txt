@@ -2,3 +2,8 @@ D:\Codes\Hiren2pDevelopments\DesignPatterns\ProxyPattern\bin\Debug\ProxyPattern.
 D:\Codes\Hiren2pDevelopments\DesignPatterns\ProxyPattern\bin\Debug\ProxyPattern.pdb
 D:\Codes\Hiren2pDevelopments\DesignPatterns\ProxyPattern\obj\x86\Debug\ProxyPattern.exe
 D:\Codes\Hiren2pDevelopments\DesignPatterns\ProxyPattern\obj\x86\Debug\ProxyPattern.pdb
+E:\Hiren\Source Code\Hiren's\DesignPatterns\ProxyPattern\bin\Debug\ProxyPattern.exe
+E:\Hiren\Source Code\Hiren's\DesignPatterns\ProxyPattern\bin\Debug\ProxyPattern.pdb
+E:\Hiren\Source Code\Hiren's\DesignPatterns\ProxyPattern\obj\x86\Debug\ProxyPattern.csprojResolveAssemblyReference.cache
+E:\Hiren\Source Code\Hiren's\DesignPatterns\ProxyPattern\obj\x86\Debug\ProxyPattern.exe
+E:\Hiren\Source Code\Hiren's\DesignPatterns\ProxyPattern\obj\x86\Debug\ProxyPattern.pdb

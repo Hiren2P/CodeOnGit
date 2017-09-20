@@ -2,3 +2,8 @@ D:\Codes\Hiren2pDevelopments\DesignPatterns\SingletonPattern\bin\Debug\Singleton
 D:\Codes\Hiren2pDevelopments\DesignPatterns\SingletonPattern\bin\Debug\SingletonPattern.pdb
 D:\Codes\Hiren2pDevelopments\DesignPatterns\SingletonPattern\obj\x86\Debug\SingletonPattern.exe
 D:\Codes\Hiren2pDevelopments\DesignPatterns\SingletonPattern\obj\x86\Debug\SingletonPattern.pdb
+E:\Hiren\Source Code\Hiren's\DesignPatterns\SingletonPattern\bin\Debug\SingletonPattern.exe
+E:\Hiren\Source Code\Hiren's\DesignPatterns\SingletonPattern\bin\Debug\SingletonPattern.pdb
+E:\Hiren\Source Code\Hiren's\DesignPatterns\SingletonPattern\obj\x86\Debug\SingletonPattern.csprojResolveAssemblyReference.cache
+E:\Hiren\Source Code\Hiren's\DesignPatterns\SingletonPattern\obj\x86\Debug\SingletonPattern.exe
+E:\Hiren\Source Code\Hiren's\DesignPatterns\SingletonPattern\obj\x86\Debug\SingletonPattern.pdb
