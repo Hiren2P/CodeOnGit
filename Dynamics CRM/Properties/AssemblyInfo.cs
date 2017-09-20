@@ -1,3 +1,4 @@
+using System.Resources;
 using System;
 using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -6,12 +7,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Microsoft Dynamics CRM SDK Templates")]
-[assembly: AssemblyDescription("The Microsoft Dynamics CRM SDK Templates provide project and item templates for creating a number of SDK centric CRM components.  This template package provides project templates for Unified Service Desk Features and Package Deployment packages.")]
+[assembly: AssemblyTitle("Dynamics CRM custom extensions")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("Microsoft Dynamics© CRM")]
-[assembly: AssemblyCopyright("© 2015 Microsoft Corporation. All rights reserved")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: CLSCompliant(true)]
@@ -36,3 +37,5 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.2.100.7712")]
+[assembly: NeutralResourcesLanguage("en")]
+
