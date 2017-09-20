@@ -1,0 +1,10 @@
+E:\Hiren\Source Code\Hiren's\Dynamics CRM\bin\Debug\CrmExtensions.dll
+E:\Hiren\Source Code\Hiren's\Dynamics CRM\bin\Debug\CrmExtensions.pdb
+E:\Hiren\Source Code\Hiren's\Dynamics CRM\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+E:\Hiren\Source Code\Hiren's\Dynamics CRM\bin\Debug\Microsoft.IdentityModel.dll
+E:\Hiren\Source Code\Hiren's\Dynamics CRM\bin\Debug\Microsoft.Xrm.Sdk.dll
+E:\Hiren\Source Code\Hiren's\Dynamics CRM\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+E:\Hiren\Source Code\Hiren's\Dynamics CRM\bin\Debug\Microsoft.Xrm.Sdk.xml
+E:\Hiren\Source Code\Hiren's\Dynamics CRM\obj\Debug\CrmExtensions.csprojResolveAssemblyReference.cache
+E:\Hiren\Source Code\Hiren's\Dynamics CRM\obj\Debug\CrmExtensions.dll
+E:\Hiren\Source Code\Hiren's\Dynamics CRM\obj\Debug\CrmExtensions.pdb
